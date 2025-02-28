@@ -1,0 +1,27 @@
+.home-container {
+    /* Maybe you want a teal background for the entire section */
+    background: linear-gradient(
+      to bottom right,
+      var(--peacock-teal),
+      var(--bright-turquoise)
+    );
+    color: white;
+    padding: 2rem;
+    min-height: calc(100vh - 60px);
+    /* adjust if your nav is 60px high, or just pick a comfortable spacing */
+  }
+  
+  .home-container h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home-container p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+  }
+  .parallax-element {
+    width: 150px;
+    margin: 2rem auto;
+  }
+  
